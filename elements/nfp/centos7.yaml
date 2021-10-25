@@ -1,0 +1,13 @@
+apiVersion: mdcap.robin.io/v1
+kind: NFP
+metadata:
+  flavor: default
+  version: '7.0'
+  description: NFP element
+  name: centos7
+  labels: {}
+spec:
+  vendor: Robin
+  bundle:
+    url: https://lakshay-bundle.s3-us-west-2.amazonaws.com/docker-centos-7-643_master.bin.tar.gz
+    registry: DEV
