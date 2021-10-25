@@ -1,0 +1,12 @@
+apiVersion: mdcap.robin.io/v1
+kind: NETWORK_SERVICE
+metadata:
+  name: demo
+spec:
+  nfpRefs:
+    - nfp: postgresql:10.12.5
+      clusterRef:
+      - kind: ROBINCLUSTER
+        name: sjc
+  hierarchy:
+  - postgresql:10.12.5
