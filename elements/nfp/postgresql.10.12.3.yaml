@@ -1,0 +1,18 @@
+apiVersion: mdcap.robin.io/v1
+kind: NFP
+metadata:
+  labels: {}
+  name: postgresql
+  flavor: ''
+  version: 10.12.3
+  description: postgresql
+spec:
+  helm:
+    chart: postgresql
+    repo_url: https://charts.bitnami.com/bitnami
+    repo_name: bitnami
+  values:
+    dev: {}
+    staging: {}
+    prod: {}
+  vendor: Bitnami
