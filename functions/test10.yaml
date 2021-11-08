@@ -11,4 +11,4 @@ spec:
   etypes:
   - ROBINCLUSTER
   reserved_envs: UPDATE_PAYLOAD,ACCESS_TOKEN
-  fanout: 25
+  fanout: 20
