@@ -11,5 +11,5 @@ spec:
   connectors:
     ssh:
       sshhost: 10.9.82.119
-      username: root
+      username: rootq
       password: robin123
