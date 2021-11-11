@@ -8,6 +8,7 @@ spec:
   source: functions/src/test10.sh
   description: test script for ROBINCLUSTER
   envs: 'a'
+  mode: 0
   etypes:
   - ROBINCLUSTER
   reserved_envs: UPDATE_PAYLOAD,ACCESS_TOKEN
