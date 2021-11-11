@@ -3,7 +3,7 @@ metadata:
   name: test10
 spec:
   version: v1
-  operator: shell
+  operator: ssh
   cmd: ''
   source: functions/src/test10.sh
   description: test script for ROBINCLUSTER
