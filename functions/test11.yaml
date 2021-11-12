@@ -1,0 +1,15 @@
+kind: FUNCTION
+metadata:
+  name: test11
+spec:
+  version: v1
+  operator: ssh
+  cmd: ''
+  script: functions/src/test11.sh
+  description: test script for ROBINCLUSTER
+  envs: 'a'
+  mode: 0
+  etypes:
+  - ROBINCLUSTER
+  reserved_envs: UPDATE_PAYLOAD,ACCESS_TOKEN
+  fanout: 22
