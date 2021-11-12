@@ -5,7 +5,7 @@ spec:
   version: v1
   operator: ssh
   cmd: ''
-  source: functions/src/test10.sh
+  script: functions/src/test10.sh
   description: test script for ROBINCLUSTER
   envs: 'a'
   mode: 0
