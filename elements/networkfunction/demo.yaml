@@ -6,5 +6,5 @@ spec:
   nfpRef:
     nfp: postgresql:10.12.5
     clusterRef:
-    - kind: ROBINCLUSTER
+      kind: ROBINCLUSTER
       name: sjc
