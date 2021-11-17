@@ -1,0 +1,15 @@
+kind: VM
+apiVersion: mdcap.robin.io/v1
+metadata:
+  name: cscale-82-11
+  version: '1.0'
+  flavor: default
+  description: robinlab
+  labels:
+    location: 1
+spec:
+  connectors:
+    ssh:
+      sshhost: 10.9.82.11
+      username: root
+      password: robin12fsdfs345222sdfsdfsfsfsdf2sdasdadasfsfs
